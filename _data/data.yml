@@ -29,7 +29,7 @@ skills:
       - OpenGL
       - Vulkan API
       - GLSL / SPIR-V / Slang
-  - category: DevOps & Infrastructure
+  - category: DevOps & Infra
     skill:
       - Docker / Docker Compose
       - CI/CD
@@ -40,7 +40,7 @@ skills:
       - MySQL
       - SQLite
       - Google Cloud Console
-  - category: Automation & AI-Augmented Dev
+  - category: Automation & AI
     skill:
       - N8N
       - MCP
