@@ -13,11 +13,6 @@ languages:
   - idiom: Russian — Native
   - idiom: Spanish — B1
 
-education:
-  - degree: Technical Degree in Computer Science (foundational cycle, in progress)
-    time: Present
-    university: Escuela Técnica Fragata Escuela Libertad
-
 skills:
   - category: Backend
     skill:
@@ -93,4 +88,10 @@ projects:
       A 3D game engine written from scratch in Java using LWJGL (the same
       OpenGL binding behind Minecraft). Features primitive lighting, specular
       reflections, GUI elements, and fog rendering.
+
+education:
+  - university: Escuela Técnica Fragata Escuela Libertad
+    time: Present
+    details: | 
+      Technical Degree in Computer Science (foundational cycle, in progress) 
 
