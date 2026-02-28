@@ -76,7 +76,7 @@ experience:
     company: NDA
     details: |
       Developed the core non-AI components of a Photoshop plugin for
-      AI-powered photo retouching. Implemented the application logic and
+      AI-powered photo editing. Implemented the application logic and
       built the graphical interface using the Qt framework.
     technologies_used: |
       C++, Qt
