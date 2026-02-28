@@ -1,108 +1,96 @@
-name: John Doe
+name: Radomir Obraztsov/Repin 
 support_dark_mode: true
 fork: true
 
-# Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
-  gitlab: 
-  twitter: 
+  email: qb.jol.dp@gmail.com
+  github: https://github.com/Sonmirean
+  linkedin: https://www.linkedin.com/in/radomir-repin-3b6442370/
+  phone: +54 911 3269-0172
 
 languages:
-  - idiom: English
-  - idiom: Russian
-  - idiom: French
+  - idiom: English — C1
+  - idiom: Russian — Native
+  - idiom: Spanish — B1
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
-
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  - degree: Technical Degree in Computer Science (foundational cycle, in progress)
+    time: Present
+    university: Escuela Técnica Fragata Escuela Libertad
 
 skills:
   - category: Backend
-    skill: 
-      - Go
-      - Rust
+    skill:
+      - C/C++
+      - C#
+      - Java
+      - Python
   - category: Frontend
     skill:
-      - React
-      - Typescript
-  - category: DevOps
+      - JavaScript
+      - TypeScript
+  - category: Graphics & Rendering
     skill:
-      - Docker
-      - Kubernetes 
+      - OpenGL
+      - Vulkan API
+      - GLSL / SPIR-V / Slang
+  - category: DevOps & Infrastructure
+    skill:
+      - Docker / Docker Compose
+      - CI/CD
+      - Git / GitLab / GitHub
+  - category: Databases & Cloud
+    skill:
+      - MongoDB
+      - MySQL
+      - SQLite
+      - Google Cloud Console
+  - category: Automation & AI-Augmented Dev
+    skill:
+      - N8N
+      - MCP
+      - Claude Code
+      - Checkly
 
-# Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  Software Engineer with a DevOps and real-time graphics background.
+  I write clean, maintainable infrastructure with sharp attention to long-term
+  reliability and forward compatibility. 
+  Hands-on experience building full 3D rendering pipelines, profiling graphics 
+  performance, and designing end-to-end automated workflows. 
+  Advanced Linux user comfortable living in the terminal.
+  Leverage AI agents as a development force multiplier while retaining full
+  ownership of architectural and performance-critical decisions. 
+  Equally effective as a self-directed contributor or an engaged team member.
+  Powered by: genuine curiosity
 
-# Experience
 experience:
+  - role: DevOps Engineer
+    time: 2025-Present
+    company: Individual Entrepreneur
+    details: |
+      Built a full-cycle application for AI-assisted communication with HR
+      and recruiters — from codebase to CI/CD pipeline and production deployment.
+      Designed and maintained the complete infrastructure including automated
+      testing, containerized services, and delivery workflows.
+    technologies_used: |
+      Docker, Docker Compose, CI/CD, Python, N8N, Git
+
   - role: Software Engineer
-    time: 2020-Present
-    company: Google
+    time: 2024 (6 months)
+    company: NDA
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Go, Angular, Typescript, C++
-  
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
-
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
-
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
+      Developed the core non-AI components of a Photoshop plugin for
+      AI-powered photo retouching. Implemented the application logic and
+      built the graphical interface using the Qt framework.
+    technologies_used: |
+      C++, Qt
 
 projects:
-  - title: Cool Project 
-    link: #
+  - title: Minimalistic OpenGL Game Engine
+    link: "https://github.com/Sonmirean/Engine-OpenGL"
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      A 3D game engine written from scratch in Java using LWJGL (the same
+      OpenGL binding behind Minecraft). Features primitive lighting, specular
+      reflections, GUI elements, and fog rendering.
 
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
-
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
