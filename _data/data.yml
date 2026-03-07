@@ -1,11 +1,11 @@
-name: Radomir Obraztsov / Repin 
+name: Radomir Obraztsov
 support_dark_mode: true
 fork: true
 
 contact:
   email: qb.jol.dp@gmail.com
   github: https://github.com/Sonmirean
-  linkedin: https://www.linkedin.com/in/radomir-repin-3b6442370/
+  linkedin: https://www.linkedin.com/in/radomir-obraztsov-repin-3b6442370
   phone: +54 911 3269-0172
 
 languages:
@@ -90,6 +90,6 @@ projects:
       reflections, GUI elements, and fog rendering.
 
 education:
-  - degree: Technical Degree in Computer Science (foundational cycle, in progress)
+  - degree: "Bachelor's Degree in Computer Science"
     university: Escuela Técnica Fragata Escuela Libertad
 
