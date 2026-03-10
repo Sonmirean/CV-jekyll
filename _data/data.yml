@@ -14,9 +14,9 @@ languages:
   - idiom: Spanish — B1
 
 education:
-  - degree: Technical Degree in Computer Science (foundational cycle, in progress)
+  - degree: "Bachelor's Degree in Conputer Science"
     time: Present
-    university: Escuela Técnica Fragata Escuela Libertad
+    university: Technical college "Fragata"
 
 skills:
   - category: Backend
@@ -45,6 +45,7 @@ skills:
       - MySQL
       - SQLite
       - Google Cloud Console
+      - Cloudflare
   - category: Automation & AI-Augmented Dev
     skill:
       - N8N
