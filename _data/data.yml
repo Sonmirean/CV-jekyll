@@ -1,17 +1,17 @@
-name: Radomir Obraztsov/Repin 
+name: Radomir Obraztsov 
 support_dark_mode: true
 fork: true
 
 contact:
   email: qb.jol.dp@gmail.com
   github: https://github.com/Sonmirean
-  linkedin: https://www.linkedin.com/in/radomir-repin-3b6442370/
+  linkedin: https://www.linkedin.com/in/radomir-repin/
   phone: +54 911 3269-0172
 
 languages:
   - idiom: English — C1
   - idiom: Russian — Native
-  - idiom: Spanish — B1
+  - idiom: Spanish — B2
 
 education:
   - degree: "Bachelor's Degree in Computer Science"
@@ -25,33 +25,33 @@ skills:
       - C#
       - Java
       - Python
+      - Golang
   - category: Frontend
     skill:
       - JavaScript
       - TypeScript
+      - React
+      - Vue.js
+      - Three.js
   - category: Graphics & Rendering
     skill:
       - OpenGL
       - Vulkan API
-      - GLSL / SPIR-V / Slang
+      - GLSL, SPIR-V, Slang
   - category: DevOps & Infrastructure
     skill:
-      - Docker / Docker Compose
-      - CI/CD
-      - Git / GitLab / GitHub
+      - Docker, Docker compose, Portainer
+      - Kubernetes, Terraform, Ansible
+      - GitlabCI, Jenkins 
   - category: Databases & Cloud
-    skill:
-      - MongoDB
-      - MySQL
-      - SQLite
-      - Google Cloud Console
+    skill: 
+      - MongoDB, MySQL, PostgreSQL, CouchDB
+      - AWS, GCP, Azure
       - Cloudflare
   - category: Automation & AI-Augmented Dev
     skill:
-      - N8N
-      - MCP
-      - Claude Code
-      - Checkly
+      - Claude Code, MCP, Agents
+      - n8n
 
 profile: |
   Software Engineer with a DevOps and real-time graphics background.
