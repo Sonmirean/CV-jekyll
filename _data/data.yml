@@ -1,22 +1,33 @@
+<<<<<<< HEAD
 name: Radomir Obraztsov/Repin 
+=======
+name: Radomir Obraztsov
+>>>>>>> gh-pages
 support_dark_mode: true
 fork: true
 
 contact:
   email: qb.jol.dp@gmail.com
   github: https://github.com/Sonmirean
+<<<<<<< HEAD
   linkedin: https://www.linkedin.com/in/radomir-repin-3b6442370/
+=======
+  linkedin: https://www.linkedin.com/in/radomir-obraztsov-repin-3b6442370
+>>>>>>> gh-pages
   phone: +54 911 3269-0172
 
 languages:
   - idiom: English — C1
   - idiom: Russian — Native
   - idiom: Spanish — B1
+<<<<<<< HEAD
 
 education:
   - degree: "Bachelor's Degree in Conputer Science"
     time: Present
     university: Technical college "Fragata"
+=======
+>>>>>>> gh-pages
 
 skills:
   - category: Backend
@@ -34,7 +45,11 @@ skills:
       - OpenGL
       - Vulkan API
       - GLSL / SPIR-V / Slang
+<<<<<<< HEAD
   - category: DevOps & Infrastructure
+=======
+  - category: DevOps & Infra
+>>>>>>> gh-pages
     skill:
       - Docker / Docker Compose
       - CI/CD
@@ -45,8 +60,12 @@ skills:
       - MySQL
       - SQLite
       - Google Cloud Console
+<<<<<<< HEAD
       - Cloudflare
   - category: Automation & AI-Augmented Dev
+=======
+  - category: Automation & AI
+>>>>>>> gh-pages
     skill:
       - N8N
       - MCP
@@ -69,6 +88,7 @@ experience:
   - role: DevOps Engineer
     time: 2025-Present
     company: Individual Entrepreneur
+<<<<<<< HEAD
     details: |
       Built a full-cycle application for AI-assisted communication with HR
       and recruiters — from codebase to CI/CD pipeline and production deployment.
@@ -86,6 +106,15 @@ experience:
       built the graphical interface using the Qt framework.
     technologies_used: |
       C++, Qt
+=======
+    details: |
+      Built a full-cycle application for AI-assisted communication with HR
+      and recruiters — from codebase to CI/CD pipeline and production deployment.
+      Designed and maintained the complete infrastructure including automated
+      testing, containerized services, and delivery workflows.
+    technologies_used: |
+      Docker, Docker Compose, CI/CD, Python, N8N, Git
+>>>>>>> gh-pages
 
 projects:
   - title: Minimalistic OpenGL Game Engine
@@ -95,3 +124,10 @@ projects:
       OpenGL binding behind Minecraft). Features primitive lighting, specular
       reflections, GUI elements, and fog rendering.
 
+<<<<<<< HEAD
+=======
+education:
+  - degree: "Bachelor's Degree in Computer Science"
+    university: Escuela Técnica Fragata Escuela Libertad
+
+>>>>>>> gh-pages

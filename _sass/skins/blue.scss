@@ -1,18 +1,25 @@
 :root {
-    --bg-color: #f1f1f1;
-    --bg-color-cv: #ffffff;
-    --fg-color: #00629b;
+    --bg-color: #d5ccb4;
+    --bg-color-cv: #e8e3c0;
+    --fg-color: #098298;
     --fg-color-dark: #023b5b;
     --fg-color-body: #5e6369;
     --fg-color-title-sm: #688293;
-
 }
-
+ 
 [data-theme='dark'] {
+<<<<<<< HEAD
     --bg-color: #20393d;
     --bg-color-cv: #152e2f;
     --fg-color: #32b6b8;
     --fg-color-dark: #32b89d;
     --fg-color-body: rgba(187, 242, 250, 0.75);
+=======
+    --bg-color: #0a3b37;
+    --bg-color-cv: #1b3039;
+    --fg-color: #0e5f63;
+    --fg-color-dark: #0b9994;
+    --fg-color-body: rgba(187, 248, 250, 0.75);
+>>>>>>> gh-pages
     --fg-color-title-sm: #688293;
 }
