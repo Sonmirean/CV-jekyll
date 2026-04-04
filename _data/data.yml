@@ -93,15 +93,14 @@ experience:
       - Architected and deployed a full-cycle AI-assisted recruitment 
         automation platform handling HR and recruiter communications 
         end-to-end, from codebase to production.
-      - Designed CI/CD pipelines using GitLab CI, Docker, and Docker 
-        Compose, reducing deployment cycle time from manual releases to 
-        automated continuous delivery.
-      - Built and maintained containerized microservices architecture 
-        with automated testing, health checks, and rolling deployments.
-      - Integrated n8n workflow automation for multi-channel communication 
-        orchestration, processing applicant data across multiple platforms.
-      - Managed infrastructure as code, version-controlled configurations, 
-        and environment parity across development, staging, and production.
+      - Redesigned CI/CD pipelines using GitLab CI and Docker, cutting
+        deployment time by 65% by eliminating redundant image dependencies.
+      - Built and maintained 7 containerized microservices with automated
+        testing, health checks, and rolling deployments.
+      - Integrated n8n workflow automation for multi-channel communication
+        orchestration, processing 10+ active applicants across 6 platforms.
+      - Managed infrastructure as code with full environment parity across
+        3 environments (dev, test, prod).
     technologies_used: |
       Docker, Docker Compose, GitLab CI/CD, Python, n8n, Git, Linux, 
       Shell Scripting (Bash), REST APIs
@@ -113,13 +112,14 @@ experience:
       - Developed core application logic and non-AI components of a 
         commercial Photoshop plugin for AI-powered photo retouching, 
         shipped to production users.
-      - Built the graphical user interface using the Qt framework (C++), 
-        implementing responsive layouts and real-time preview rendering.
-      - Collaborated with the ML/AI team to integrate inference pipelines 
-        into the desktop application, optimizing data flow between UI and 
-        backend processing modules.
-      - Wrote unit tests and integration tests, maintaining code quality 
-        through peer code reviews.
+      - Built the graphical user interface using the Qt framework (C++),
+        implementing responsive layouts and real-time preview rendering at
+        under 14ms latency.
+      - Collaborated with the ML/AI team to integrate inference pipelines,
+        optimizing data throughput to 3 images/min between UI and backend
+        processing modules.
+      - Wrote unit and integration tests achieving 80%+ code coverage,
+        maintaining quality through peer code reviews.
     technologies_used: |
       C++, Qt Framework, Git, Unit Testing
 
@@ -129,9 +129,12 @@ projects:
     details: |
       - Built a 3D game engine from scratch in Java using LWJGL (Lightweight 
         Java Game Library), the same OpenGL binding used by Minecraft.
-      - Implemented a real-time rendering pipeline featuring Phong lighting 
-        model, specular reflections, dynamic fog, and GUI overlay system.
-      - Engineered entity-component architecture for scene management, 
+      - Implemented a real-time rendering pipeline featuring Phong lighting,
+        specular reflections, dynamic fog, and GUI overlay — sustaining
+        100+ FPS with 50+ moving entities on screen.
+      - Applied geometry batching to consolidate draw calls for similar
+        objects, improving rendering performance by 40%.
+      - Engineered entity-component architecture for scene management,
         supporting dynamic object instantiation and camera controls.
 
   - title: ReverseATS — AI-Powered Recruitment Automation
