@@ -90,17 +90,17 @@ experience:
     time: 2025–Present
     company: ReverseATS (RATS)
     details: |
-      - Architected and deployed a full-cycle AI-assisted recruitment 
-        automation platform handling HR and recruiter communications 
-        end-to-end, from codebase to production.
+      - Architected an AI-powered recruitment automation platform that
+        reduced manual hiring workflow from 8+ hrs/week to under 15 min/week
+        per client.
+      - Automated email sorting, hiring platform communications, calendar
+        booking, and CV generation across all clients via n8n workflow
+        orchestration.
       - Redesigned CI/CD pipelines using GitLab CI and Docker, cutting
-        deployment time by 65% by eliminating redundant image dependencies.
-      - Built and maintained 7 containerized microservices with automated
-        testing, health checks, and rolling deployments.
-      - Integrated n8n workflow automation for multi-channel communication
-        orchestration, processing 10+ active applicants across 6 platforms.
-      - Managed infrastructure as code with full environment parity across
-        3 environments (dev, test, prod).
+        deployment time by 65% and enabling 2–3 production deployments
+        per day.
+      - Maintained 99% uptime across containerized services, scaling from
+        a home-hosted MVP to cloud infrastructure.
     technologies_used: |
       Docker, Docker Compose, GitLab CI/CD, Python, n8n, Git, Linux, 
       Shell Scripting (Bash), REST APIs
@@ -109,17 +109,13 @@ experience:
     time: 2024 (6 months)
     company: Confidential (NDA)
     details: |
-      - Developed core application logic and non-AI components of a 
-        commercial Photoshop plugin for AI-powered photo retouching, 
-        shipped to production users.
-      - Built the graphical user interface using the Qt framework (C++),
-        implementing responsive layouts and real-time preview rendering at
-        under 14ms latency.
-      - Collaborated with the ML/AI team to integrate inference pipelines,
-        optimizing data throughput to 3 images/min between UI and backend
-        processing modules.
-      - Wrote unit and integration tests achieving 80%+ code coverage,
-        maintaining quality through peer code reviews.
+      - Developed core application logic for a commercial Photoshop plugin
+        (C++/Qt), delivering production-ready software within a 6-month
+        contract.
+      - Engineered responsive GUI with real-time preview rendering at under
+        14ms latency.
+      - Collaborated with ML/AI team to integrate inference pipelines into
+        the desktop application.
     technologies_used: |
       C++, Qt Framework, Git, Unit Testing
 
