@@ -10,7 +10,7 @@ contact:
 
 links:
   - "GitHub: github.com/Sonmirean"
-  - "LinkedIn: linkedin.com/in/radomir-repin"
+  - "LinkedIn: linkedin.com/in/radomir-obraztsov"
 
 languages:
   - idiom: English — C1 (CEFR)
@@ -18,132 +18,75 @@ languages:
   - idiom: Spanish — B2 (CEFR)
 
 education:
-  - degree: "Bachelor of Science (B.Sc.) in Computer Science"
+  - degree: "B.Sc. in Computer Science"
     time: 2019–2025
     university: Technical College "Fragata"
 
 skills:
-  - category: Backend Development
-    skill:
-      - "C / C++ (C++17)"
-      - "C# (.NET)"
-      - Java
-      - Python
-      - "Go (Golang)"
-  - category: Frontend Development
-    skill:
-      - "JavaScript (JS)"
-      - "TypeScript (TS)"
-      - "React (React.js)"
-      - Vue.js
-      - Three.js
-  - category: Graphics and Rendering
-    skill:
-      - "OpenGL (LWJGL)"
-      - Vulkan API
-      - "GLSL, SPIR-V, Slang (Shader Languages)"
   - category: DevOps and Infrastructure
     skill:
-      - "Docker, Docker Compose, Portainer"
-      - "Kubernetes (K8s), Terraform, Ansible"
-      - "GitLab CI/CD, Jenkins"
-      - "Linux Administration (Ubuntu, Debian, Arch)"
-      - "Infrastructure as Code (IaC)"
-      - "Shell Scripting (Bash)"
-  - category: Databases and Cloud
+      - "Docker, Kubernetes (K8s), Terraform, Ansible"
+      - "GitLab CI/CD, Jenkins, Nginx"
+      - "Linux, Infrastructure as Code (IaC), Shell Scripting (Bash)"
+  - category: Cloud
     skill:
-      - "MongoDB, MySQL, PostgreSQL, CouchDB"
       - "Amazon Web Services (AWS)"
       - "Google Cloud Platform (GCP)"
-      - "Microsoft Azure (Azure)"
-      - Cloudflare
-  - category: Automation and AI-Augmented Development
+      - "Microsoft Azure (Azure), Cloudflare"
+  - category: Backend
     skill:
-      - "Claude Code, Model Context Protocol (MCP), AI Agents"
+      - "C / C++ (C++17), C# (.NET)"
+      - "Java, Python, Go (Golang)"
+  - category: Graphics and Rendering
+    skill:
+      - "OpenGL (LWJGL), Vulkan API"
+      - "GLSL, SPIR-V"
+  - category: Databases
+    skill:
+      - "PostgreSQL, MongoDB, MySQL, CouchDB"
+  - category: Automation and AI
+    skill:
+      - "Claude Code, Model Context Protocol (MCP)"
       - "n8n (Workflow Automation)"
-  - category: Tools and Methodologies
+  - category: Tools
     skill:
-      - "Git, GitHub, GitLab"
-      - "Jira, Confluence"
-      - "Agile (Scrum, Kanban)"
-      - "REST APIs, GraphQL"
-      - "Monitoring (Prometheus, Grafana)"
+      - "Git, REST APIs, GraphQL"
+      - "Prometheus, Grafana, Jira, Agile"
 
 profile: |
-  Software Engineer and DevOps Engineer with hands-on experience in 
-  backend development, CI/CD pipeline design, container orchestration, 
-  and real-time 3D graphics rendering. Builds and maintains production 
-  infrastructure using Docker, Kubernetes (K8s), Terraform, and Ansible 
-  across Amazon Web Services (AWS), Google Cloud Platform (GCP), and 
-  Microsoft Azure. Develops full-stack applications with React, Vue.js, 
-  TypeScript, Python, Go (Golang), and Java. Designs GPU rendering 
-  pipelines with OpenGL, Vulkan API, and GLSL shaders, with demonstrated 
-  experience profiling and optimizing graphics performance. Advanced Linux 
-  administrator comfortable in terminal-driven workflows. Leverages AI 
-  agents (Claude Code, MCP) as a development force multiplier while 
-  retaining full ownership of architectural and performance-critical 
-  decisions. Effective as both a self-directed individual contributor and 
-  a collaborative team member in Agile environments.
+  DevOps / SRE Engineer. Automates workflows, ships faster, keeps things
+  running. AWS/GCP/Azure, CI/CD, containers. Uses AI agents (Claude Code,
+  MCP) to multiply output.
 
 experience:
   - role: DevOps Engineer
     time: 2025–Present
     company: ReverseATS (RATS)
     details: |
-      - Architected an AI-powered recruitment automation platform that
-        reduced manual hiring workflow from 8+ hrs/week to under 15 min/week
-        per client.
-      - Automated email sorting, hiring platform communications, calendar
-        booking, and CV generation across all clients via n8n workflow
-        orchestration.
-      - Redesigned CI/CD pipelines using GitLab CI and Docker, cutting
-        deployment time by 65% and enabling 2–3 production deployments
-        per day.
-      - Maintained 99% uptime across containerized services, scaling from
-        a home-hosted MVP to cloud infrastructure.
+      - Eliminated 8+ hrs/week of manual hiring work per client — fully
+        automated to <15 min via n8n (email, calendars, CV generation,
+        platform comms).
+      - Cut deployment time 65% with GitLab CI/Docker — from slow manual
+        releases to 2–3 per day.
+      - 99% uptime across all containerized services.
     technologies_used: |
-      Docker, Docker Compose, GitLab CI/CD, Python, n8n, Git, Linux, 
-      Shell Scripting (Bash), REST APIs
+      Docker, GitLab CI/CD, Python, n8n, Linux, Bash, REST APIs
 
   - role: Software Engineer
     time: 2024 (6 months)
     company: Confidential (NDA)
     details: |
-      - Developed core application logic for a commercial Photoshop plugin
-        (C++/Qt), delivering production-ready software within a 6-month
-        contract.
-      - Engineered responsive GUI with real-time preview rendering at under
-        14ms latency.
-      - Collaborated with ML/AI team to integrate inference pipelines into
-        the desktop application.
+      - Delivered commercial Photoshop plugin (C++/Qt) on time, within
+        6-month contract.
+      - Real-time AI preview at <14ms latency — no perceptible lag for
+        end users.
     technologies_used: |
-      C++, Qt Framework, Git, Unit Testing
+      C++, Qt Framework, Git
 
 projects:
-  - title: Minimalistic OpenGL Game Engine
+  - title: OpenGL Game Engine
     link: "github.com/Sonmirean/Engine-OpenGL"
     details: |
-      - Built a 3D game engine from scratch in Java using LWJGL (Lightweight 
-        Java Game Library), the same OpenGL binding used by Minecraft.
-      - Implemented a real-time rendering pipeline featuring Phong lighting,
-        specular reflections, dynamic fog, and GUI overlay — sustaining
-        100+ FPS with 50+ moving entities on screen.
-      - Applied geometry batching to consolidate draw calls for similar
-        objects, improving rendering performance by 40%.
-      - Engineered entity-component architecture for scene management,
-        supporting dynamic object instantiation and camera controls.
-
-  - title: ReverseATS — AI-Powered Recruitment Automation
-    link: "github.com/Sonmirean"
-    details: |
-      - Designed the full infrastructure for an automated job application 
-        platform: CV generation, vacancy matching, HR communication handling.
-      - Containerized all services with Docker Compose, implemented CI/CD 
-        with GitLab, deployed to cloud infrastructure.
-      - Integrated AI agents (Claude Code, MCP) for intelligent resume 
-        tailoring and automated correspondence workflows via n8n.
-
-certifications:
-  - name: "AWS Certified Cloud Practitioner (CLF-C02)"
-    issuer: Amazon Web Services
-    date: 2025
+      - Custom 3D rendering pipeline (Java/LWJGL): 100+ FPS with 50+
+        moving entities on screen.
+      - 40% performance gain via geometry batching.
